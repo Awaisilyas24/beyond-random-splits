@@ -1,0 +1,61 @@
+[whole] ids2018/2018-02-14_bruteforce (358 MB)
+[sliced] ids2018/2018-02-20_ddos_loic_http (4055 MB -> 10x8MB slices)
+    slice 0: bytes 0-8388607, kept 17630 lines
+    slice 1: bytes 405492535-413881142, kept 16398 lines
+    slice 2: bytes 810985070-819373677, kept 16237 lines
+    slice 3: bytes 1216477605-1224866212, kept 16700 lines
+    slice 4: bytes 1621970140-1630358747, kept 16502 lines
+    slice 5: bytes 2027462675-2035851282, kept 16107 lines
+    slice 6: bytes 2432955210-2441343817, kept 16095 lines
+    slice 7: bytes 2838447745-2846836352, kept 16742 lines
+    slice 8: bytes 3243940280-3252328887, kept 15317 lines
+    slice 9: bytes 3649432815-3657821422, kept 15983 lines
+[whole] ids2018/2018-02-21_ddos_loic_udp_hoic (328 MB)
+[whole] ids2018/2018-03-02_botnet (352 MB)
+[whole] ddos2019/0112_UDPLag (158 MB)
+[sliced] ddos2019/0112_Syn (0 MB -> 10x8MB slices)
+    slice 0: bytes 0-1117, kept 0 lines
+    slice 1: bytes 111-1117, kept 0 lines
+    slice 2: bytes 222-1117, kept 0 lines
+    slice 3: bytes 333-1117, kept 0 lines
+    slice 4: bytes 444-1117, kept 0 lines
+    slice 5: bytes 555-1117, kept 0 lines
+    slice 6: bytes 666-1117, kept 0 lines
+    slice 7: bytes 777-1117, kept 0 lines
+    slice 8: bytes 888-1117, kept 0 lines
+    slice 9: bytes 999-1117, kept 0 lines
+[sliced] ddos2019/0112_DrDoS_NTP (0 MB -> 10x8MB slices)
+    slice 0: bytes 0-1147, kept 0 lines
+    slice 1: bytes 114-1147, kept 0 lines
+    slice 2: bytes 228-1147, kept 0 lines
+    slice 3: bytes 342-1147, kept 0 lines
+    slice 4: bytes 456-1147, kept 0 lines
+    slice 5: bytes 570-1147, kept 0 lines
+    slice 6: bytes 684-1147, kept 0 lines
+    slice 7: bytes 798-1147, kept 0 lines
+    slice 8: bytes 912-1147, kept 0 lines
+    slice 9: bytes 1026-1147, kept 0 lines
+[sliced] ddos2019/0112_DrDoS_UDP (0 MB -> 10x8MB slices)
+    slice 0: bytes 0-1141, kept 0 lines
+    slice 1: bytes 114-1141, kept 0 lines
+    slice 2: bytes 228-1141, kept 0 lines
+    slice 3: bytes 342-1141, kept 0 lines
+    slice 4: bytes 456-1141, kept 0 lines
+    slice 5: bytes 570-1141, kept 0 lines
+    slice 6: bytes 684-1141, kept 0 lines
+    slice 7: bytes 798-1141, kept 0 lines
+    slice 8: bytes 912-1141, kept 0 lines
+    slice 9: bytes 1026-1141, kept 0 lines
+[sliced] ddos2019/0112_DrDoS_DNS (0 MB -> 10x8MB slices)
+    slice 0: bytes 0-1145, kept 0 lines
+    slice 1: bytes 114-1145, kept 0 lines
+    slice 2: bytes 228-1145, kept 0 lines
+    slice 3: bytes 342-1145, kept 0 lines
+    slice 4: bytes 456-1145, kept 0 lines
+    slice 5: bytes 570-1145, kept 0 lines
+    slice 6: bytes 684-1145, kept 0 lines
+    slice 7: bytes 798-1145, kept 0 lines
+    slice 8: bytes 912-1145, kept 0 lines
+    slice 9: bytes 1026-1145, kept 0 lines
+[whole] ddos2019/0311_Portmap (79 MB)
+[whole] ddos2019/0311_UDPLag (320 MB)

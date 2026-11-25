@@ -1,0 +1,314 @@
+{
+  "files": {
+    "0112_UDPLag": {
+      "file": "/home/hatch/workspace/research-paper/experiments/code/../data/ddos2019/0112_UDPLag.csv",
+      "bytes": 157968770,
+      "n_columns": 88,
+      "labels": {
+        "UDP-lag": 366461,
+        "BENIGN": 3705,
+        "WebDDoS": 439
+      },
+      "unexpected_labels": [],
+      "format_ok": true,
+      "excluded_non_ddos_attack_rows_seen": 0
+    },
+    "0112_Syn": {
+      "file": "/home/hatch/workspace/research-paper/experiments/code/../data/ddos2019/0112_Syn.csv",
+      "bytes": 83882536,
+      "n_columns": 88,
+      "labels": {
+        "Syn": 205967,
+        "BENIGN": 35
+      },
+      "unexpected_labels": [],
+      "format_ok": true,
+      "excluded_non_ddos_attack_rows_seen": 0
+    },
+    "0112_DrDoS_NTP": {
+      "file": "/home/hatch/workspace/research-paper/experiments/code/../data/ddos2019/0112_DrDoS_NTP.csv",
+      "bytes": 83880900,
+      "n_columns": 88,
+      "labels": {
+        "DrDoS_NTP": 146101,
+        "BENIGN": 12356
+      },
+      "unexpected_labels": [],
+      "format_ok": true,
+      "excluded_non_ddos_attack_rows_seen": 0
+    },
+    "0112_DrDoS_UDP": {
+      "file": "/home/hatch/workspace/research-paper/experiments/code/../data/ddos2019/0112_DrDoS_UDP.csv",
+      "bytes": 83881314,
+      "n_columns": 88,
+      "labels": {
+        "DrDoS_UDP": 174777,
+        "BENIGN": 24
+      },
+      "unexpected_labels": [],
+      "format_ok": true,
+      "excluded_non_ddos_attack_rows_seen": 0
+    },
+    "0112_DrDoS_DNS": {
+      "file": "/home/hatch/workspace/research-paper/experiments/code/../data/ddos2019/0112_DrDoS_DNS.csv",
+      "bytes": 83883408,
+      "n_columns": 88,
+      "labels": {
+        "DrDoS_DNS": 194472,
+        "BENIGN": 1367
+      },
+      "unexpected_labels": [],
+      "format_ok": true,
+      "excluded_non_ddos_attack_rows_seen": 0
+    },
+    "0311_Portmap": {
+      "file": "/home/hatch/workspace/research-paper/experiments/code/../data/ddos2019/0311_Portmap.csv",
+      "bytes": 78611080,
+      "n_columns": 88,
+      "labels": {
+        "Portmap": 186960,
+        "BENIGN": 4734
+      },
+      "unexpected_labels": [],
+      "format_ok": true,
+      "excluded_non_ddos_attack_rows_seen": 0
+    },
+    "0311_UDPLag": {
+      "file": "/home/hatch/workspace/research-paper/experiments/code/../data/ddos2019/0311_UDPLag.csv",
+      "bytes": 319793413,
+      "n_columns": 88,
+      "labels": {
+        "UDP": 112475,
+        "Syn": 606749,
+        "BENIGN": 4068,
+        "UDPLag": 1873
+      },
+      "unexpected_labels": [],
+      "format_ok": true,
+      "excluded_non_ddos_attack_rows_seen": 0
+    },
+    "0311_Syn": {
+      "file": "/home/hatch/workspace/research-paper/experiments/code/../data/ddos2019/0311_Syn.csv",
+      "bytes": 83881611,
+      "n_columns": 88,
+      "labels": {
+        "Syn": 191074,
+        "BENIGN": 42
+      },
+      "unexpected_labels": [],
+      "format_ok": true,
+      "excluded_non_ddos_attack_rows_seen": 0
+    },
+    "0311_UDP": {
+      "file": "/home/hatch/workspace/research-paper/experiments/code/../data/ddos2019/0311_UDP.csv",
+      "bytes": 83882086,
+      "n_columns": 88,
+      "labels": {
+        "UDP": 159252,
+        "MSSQL": 20032,
+        "BENIGN": 207
+      },
+      "unexpected_labels": [],
+      "format_ok": true,
+      "excluded_non_ddos_attack_rows_seen": 0
+    },
+    "0311_LDAP": {
+      "file": "/home/hatch/workspace/research-paper/experiments/code/../data/ddos2019/0311_LDAP.csv",
+      "bytes": 83882512,
+      "n_columns": 88,
+      "labels": {
+        "LDAP": 182642,
+        "NetBIOS": 20359,
+        "BENIGN": 418
+      },
+      "unexpected_labels": [],
+      "format_ok": true,
+      "excluded_non_ddos_attack_rows_seen": 0
+    },
+    "2018-02-14_bruteforce": {
+      "file": "/home/hatch/workspace/research-paper/experiments/code/../data/ids2018/2018-02-14_bruteforce.csv",
+      "bytes": 358223333,
+      "n_columns": 80,
+      "labels": {
+        "FTP-BruteForce": 193360,
+        "SSH-Bruteforce": 187589,
+        "Benign": 667626
+      },
+      "unexpected_labels": [
+        "SSH-Bruteforce"
+      ],
+      "format_ok": true,
+      "excluded_non_ddos_attack_rows_seen": 380949
+    },
+    "2018-02-20_ddos_loic_http": {
+      "file": "/home/hatch/workspace/research-paper/experiments/code/../data/ids2018/2018-02-20_ddos_loic_http.csv",
+      "bytes": 83882188,
+      "n_columns": 84,
+      "labels": {
+        "Benign": 146149,
+        "DDoS attacks-LOIC-HTTP": 17562
+      },
+      "unexpected_labels": [],
+      "format_ok": true,
+      "excluded_non_ddos_attack_rows_seen": 0
+    },
+    "2018-02-21_ddos_loic_udp_hoic": {
+      "file": "/home/hatch/workspace/research-paper/experiments/code/../data/ids2018/2018-02-21_ddos_loic_udp_hoic.csv",
+      "bytes": 328893673,
+      "n_columns": 80,
+      "labels": {
+        "DDOS attack-HOIC": 686012,
+        "Benign": 360833,
+        "DDOS attack-LOIC-UDP": 1730
+      },
+      "unexpected_labels": [],
+      "format_ok": true,
+      "excluded_non_ddos_attack_rows_seen": 0
+    },
+    "2018-03-02_botnet": {
+      "file": "/home/hatch/workspace/research-paper/experiments/code/../data/ids2018/2018-03-02_botnet.csv",
+      "bytes": 352368373,
+      "n_columns": 80,
+      "labels": {
+        "Bot": 286191,
+        "Benign": 762384
+      },
+      "unexpected_labels": [],
+      "format_ok": true,
+      "excluded_non_ddos_attack_rows_seen": 286191
+    }
+  },
+  "pools": {
+    "ddos2019_day1": {
+      "rows_after_cleaning": 35213,
+      "duplicates_removed": 22274,
+      "benign": 16337,
+      "ddos": 18876,
+      "n_features": 77,
+      "subtypes": {
+        "DrDoS_NTP": 7767,
+        "DrDoS_UDP": 4417,
+        "UDP-lag": 3447,
+        "DrDoS_DNS": 1693,
+        "Syn": 1333,
+        "WebDDoS": 219
+      }
+    },
+    "ddos2019_day2": {
+      "rows_after_cleaning": 20565,
+      "duplicates_removed": 28904,
+      "benign": 8677,
+      "ddos": 11888,
+      "n_features": 77,
+      "subtypes": {
+        "Syn": 4211,
+        "UDP": 3802,
+        "MSSQL": 2626,
+        "LDAP": 569,
+        "NetBIOS": 238,
+        "Portmap": 225,
+        "UDPLag": 217
+      }
+    },
+    "ids2018_early": {
+      "rows_after_cleaning": 50997,
+      "duplicates_removed": 4003,
+      "benign": 35997,
+      "ddos": 15000,
+      "n_features": 77,
+      "subtypes": {
+        "DDoS attacks-LOIC-HTTP": 15000
+      }
+    },
+    "ids2018_late": {
+      "rows_after_cleaning": 55003,
+      "duplicates_removed": 1727,
+      "benign": 39992,
+      "ddos": 15011,
+      "n_features": 77,
+      "subtypes": {
+        "DDOS attack-HOIC": 13281,
+        "DDOS attack-LOIC-UDP": 1730
+      }
+    }
+  },
+  "canonical_features": [
+    "ACK Flag Count",
+    "Active Max",
+    "Active Mean",
+    "Active Min",
+    "Active Std",
+    "Average Packet Size",
+    "Avg Bwd Segment Size",
+    "Avg Fwd Segment Size",
+    "Bwd Avg Bulk Rate",
+    "Bwd Avg Bytes/Bulk",
+    "Bwd Avg Packets/Bulk",
+    "Bwd Header Length",
+    "Bwd IAT Max",
+    "Bwd IAT Mean",
+    "Bwd IAT Min",
+    "Bwd IAT Std",
+    "Bwd IAT Total",
+    "Bwd PSH Flags",
+    "Bwd Packet Length Max",
+    "Bwd Packet Length Mean",
+    "Bwd Packet Length Min",
+    "Bwd Packet Length Std",
+    "Bwd Packets/s",
+    "Bwd URG Flags",
+    "CWE Flag Count",
+    "Down/Up Ratio",
+    "ECE Flag Count",
+    "FIN Flag Count",
+    "Flow Bytes/s",
+    "Flow Duration",
+    "Flow IAT Max",
+    "Flow IAT Mean",
+    "Flow IAT Min",
+    "Flow IAT Std",
+    "Flow Packets/s",
+    "Fwd Avg Bulk Rate",
+    "Fwd Avg Bytes/Bulk",
+    "Fwd Avg Packets/Bulk",
+    "Fwd Header Length",
+    "Fwd IAT Max",
+    "Fwd IAT Mean",
+    "Fwd IAT Min",
+    "Fwd IAT Std",
+    "Fwd IAT Total",
+    "Fwd PSH Flags",
+    "Fwd Packet Length Max",
+    "Fwd Packet Length Mean",
+    "Fwd Packet Length Min",
+    "Fwd Packet Length Std",
+    "Fwd Packets/s",
+    "Fwd URG Flags",
+    "Idle Max",
+    "Idle Mean",
+    "Idle Min",
+    "Idle Std",
+    "Init_Win_bytes_backward",
+    "Init_Win_bytes_forward",
+    "Max Packet Length",
+    "Min Packet Length",
+    "PSH Flag Count",
+    "Packet Length Mean",
+    "Packet Length Std",
+    "Packet Length Variance",
+    "Protocol",
+    "RST Flag Count",
+    "SYN Flag Count",
+    "Subflow Bwd Bytes",
+    "Subflow Bwd Packets",
+    "Subflow Fwd Bytes",
+    "Subflow Fwd Packets",
+    "Total Backward Packets",
+    "Total Fwd Packets",
+    "Total Length of Bwd Packets",
+    "Total Length of Fwd Packets",
+    "URG Flag Count",
+    "act_data_pkt_fwd",
+    "min_seg_size_forward"
+  ]
+}

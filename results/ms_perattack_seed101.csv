@@ -1,0 +1,85 @@
+seed,regime,model,attack_subtype,support,recall
+101,a_random_ddos2019,Logistic Regression,DrDoS_DNS,503,0.9542743538767395
+101,a_random_ddos2019,Logistic Regression,DrDoS_NTP,2335,0.9811563169164882
+101,a_random_ddos2019,Logistic Regression,DrDoS_UDP,1321,1.0
+101,a_random_ddos2019,Logistic Regression,LDAP,126,1.0
+101,a_random_ddos2019,Logistic Regression,MSSQL,758,0.9986807387862797
+101,a_random_ddos2019,Logistic Regression,NetBIOS,61,1.0
+101,a_random_ddos2019,Logistic Regression,Portmap,59,0.9830508474576272
+101,a_random_ddos2019,Logistic Regression,Syn,1663,1.0
+101,a_random_ddos2019,Logistic Regression,UDP,1116,1.0
+101,a_random_ddos2019,Logistic Regression,UDPLag,1075,0.9841860465116279
+101,a_random_ddos2019,Logistic Regression,WebDDoS,69,0.057971014492753624
+101,a_random_ddos2019,Random Forest,DrDoS_DNS,503,0.9980119284294234
+101,a_random_ddos2019,Random Forest,DrDoS_NTP,2335,0.9978586723768736
+101,a_random_ddos2019,Random Forest,DrDoS_UDP,1321,1.0
+101,a_random_ddos2019,Random Forest,LDAP,126,1.0
+101,a_random_ddos2019,Random Forest,MSSQL,758,1.0
+101,a_random_ddos2019,Random Forest,NetBIOS,61,1.0
+101,a_random_ddos2019,Random Forest,Portmap,59,1.0
+101,a_random_ddos2019,Random Forest,Syn,1663,1.0
+101,a_random_ddos2019,Random Forest,UDP,1116,1.0
+101,a_random_ddos2019,Random Forest,UDPLag,1075,0.9962790697674418
+101,a_random_ddos2019,Random Forest,WebDDoS,69,0.927536231884058
+101,a_random_ddos2019,XGBoost,DrDoS_DNS,503,0.9980119284294234
+101,a_random_ddos2019,XGBoost,DrDoS_NTP,2335,0.9995717344753747
+101,a_random_ddos2019,XGBoost,DrDoS_UDP,1321,1.0
+101,a_random_ddos2019,XGBoost,LDAP,126,1.0
+101,a_random_ddos2019,XGBoost,MSSQL,758,1.0
+101,a_random_ddos2019,XGBoost,NetBIOS,61,1.0
+101,a_random_ddos2019,XGBoost,Portmap,59,1.0
+101,a_random_ddos2019,XGBoost,Syn,1663,0.9993986770895971
+101,a_random_ddos2019,XGBoost,UDP,1116,1.0
+101,a_random_ddos2019,XGBoost,UDPLag,1075,0.998139534883721
+101,a_random_ddos2019,XGBoost,WebDDoS,69,0.9710144927536232
+101,a_random_ddos2019,MLP,DrDoS_DNS,503,0.9761431411530815
+101,a_random_ddos2019,MLP,DrDoS_NTP,2335,0.9905781584582442
+101,a_random_ddos2019,MLP,DrDoS_UDP,1321,1.0
+101,a_random_ddos2019,MLP,LDAP,126,1.0
+101,a_random_ddos2019,MLP,MSSQL,758,1.0
+101,a_random_ddos2019,MLP,NetBIOS,61,1.0
+101,a_random_ddos2019,MLP,Portmap,59,1.0
+101,a_random_ddos2019,MLP,Syn,1663,1.0
+101,a_random_ddos2019,MLP,UDP,1116,1.0
+101,a_random_ddos2019,MLP,UDPLag,1075,0.9906976744186047
+101,a_random_ddos2019,MLP,WebDDoS,69,0.6521739130434783
+101,b1_time_ddos2019_day1_to_day2,Logistic Regression,LDAP,409,1.0
+101,b1_time_ddos2019_day1_to_day2,Logistic Regression,MSSQL,2527,0.999604273842501
+101,b1_time_ddos2019_day1_to_day2,Logistic Regression,NetBIOS,237,1.0
+101,b1_time_ddos2019_day1_to_day2,Logistic Regression,Portmap,222,0.954954954954955
+101,b1_time_ddos2019_day1_to_day2,Logistic Regression,Syn,4211,0.9957254808834006
+101,b1_time_ddos2019_day1_to_day2,Logistic Regression,UDP,3597,0.9997219905476786
+101,b1_time_ddos2019_day1_to_day2,Logistic Regression,UDPLag,205,0.7951219512195122
+101,b1_time_ddos2019_day1_to_day2,Random Forest,LDAP,409,1.0
+101,b1_time_ddos2019_day1_to_day2,Random Forest,MSSQL,2527,0.999208547685002
+101,b1_time_ddos2019_day1_to_day2,Random Forest,NetBIOS,237,1.0
+101,b1_time_ddos2019_day1_to_day2,Random Forest,Portmap,222,0.9594594594594594
+101,b1_time_ddos2019_day1_to_day2,Random Forest,Syn,4211,0.8845879838518167
+101,b1_time_ddos2019_day1_to_day2,Random Forest,UDP,3597,0.9997219905476786
+101,b1_time_ddos2019_day1_to_day2,Random Forest,UDPLag,205,0.824390243902439
+101,b1_time_ddos2019_day1_to_day2,XGBoost,LDAP,409,1.0
+101,b1_time_ddos2019_day1_to_day2,XGBoost,MSSQL,2527,0.999208547685002
+101,b1_time_ddos2019_day1_to_day2,XGBoost,NetBIOS,237,0.9789029535864979
+101,b1_time_ddos2019_day1_to_day2,XGBoost,Portmap,222,0.954954954954955
+101,b1_time_ddos2019_day1_to_day2,XGBoost,Syn,4211,0.9194965566373783
+101,b1_time_ddos2019_day1_to_day2,XGBoost,UDP,3597,0.9994439810953573
+101,b1_time_ddos2019_day1_to_day2,XGBoost,UDPLag,205,0.8682926829268293
+101,b1_time_ddos2019_day1_to_day2,MLP,LDAP,409,1.0
+101,b1_time_ddos2019_day1_to_day2,MLP,MSSQL,2527,1.0
+101,b1_time_ddos2019_day1_to_day2,MLP,NetBIOS,237,1.0
+101,b1_time_ddos2019_day1_to_day2,MLP,Portmap,222,0.963963963963964
+101,b1_time_ddos2019_day1_to_day2,MLP,Syn,4211,1.0
+101,b1_time_ddos2019_day1_to_day2,MLP,UDP,3597,0.9997219905476786
+101,b1_time_ddos2019_day1_to_day2,MLP,UDPLag,205,0.8585365853658536
+101,c_cross_ddos2019_to_ids2018,Logistic Regression,DDOS attack-HOIC,13281,0.4385211956930954
+101,c_cross_ddos2019_to_ids2018,Logistic Regression,DDOS attack-LOIC-UDP,1730,1.0
+101,c_cross_ddos2019_to_ids2018,Logistic Regression,DDoS attacks-LOIC-HTTP,15000,0.0006
+101,c_cross_ddos2019_to_ids2018,Random Forest,DDOS attack-HOIC,13281,0.43776824034334766
+101,c_cross_ddos2019_to_ids2018,Random Forest,DDOS attack-LOIC-UDP,1730,0.0
+101,c_cross_ddos2019_to_ids2018,Random Forest,DDoS attacks-LOIC-HTTP,15000,0.0
+101,c_cross_ddos2019_to_ids2018,XGBoost,DDOS attack-HOIC,13281,0.0
+101,c_cross_ddos2019_to_ids2018,XGBoost,DDOS attack-LOIC-UDP,1730,0.0
+101,c_cross_ddos2019_to_ids2018,XGBoost,DDoS attacks-LOIC-HTTP,15000,0.0
+101,c_cross_ddos2019_to_ids2018,MLP,DDOS attack-HOIC,13281,0.0
+101,c_cross_ddos2019_to_ids2018,MLP,DDOS attack-LOIC-UDP,1730,0.0
+101,c_cross_ddos2019_to_ids2018,MLP,DDoS attacks-LOIC-HTTP,15000,0.0

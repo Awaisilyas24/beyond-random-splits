@@ -1,0 +1,33 @@
+regime,model,class,precision,recall,f1,support
+a_random_ddos2019,Logistic Regression,benign,0.9804,0.9929,0.9866,7497
+a_random_ddos2019,Logistic Regression,ddos,0.9941,0.9836,0.9888,9086
+a_random_ddos2019,Random Forest,benign,0.9977,0.9995,0.9986,7497
+a_random_ddos2019,Random Forest,ddos,0.9996,0.9981,0.9988,9086
+a_random_ddos2019,XGBoost,benign,0.9987,0.9999,0.9993,7497
+a_random_ddos2019,XGBoost,ddos,0.9999,0.9989,0.9994,9086
+a_random_ddos2019,MLP,benign,0.9918,0.9956,0.9937,7497
+a_random_ddos2019,MLP,ddos,0.9964,0.9932,0.9948,9086
+b1_time_ddos2019_day1_to_day2,Logistic Regression,benign,0.9916,0.9764,0.9839,8653
+b1_time_ddos2019_day1_to_day2,Logistic Regression,ddos,0.9823,0.9937,0.988,11408
+b1_time_ddos2019_day1_to_day2,Random Forest,benign,0.7905,0.96,0.8671,8653
+b1_time_ddos2019_day1_to_day2,Random Forest,ddos,0.9638,0.8071,0.8785,11408
+b1_time_ddos2019_day1_to_day2,XGBoost,benign,0.9678,0.9515,0.9596,8653
+b1_time_ddos2019_day1_to_day2,XGBoost,ddos,0.9636,0.976,0.9698,11408
+b1_time_ddos2019_day1_to_day2,MLP,benign,0.9949,0.9783,0.9865,8653
+b1_time_ddos2019_day1_to_day2,MLP,ddos,0.9837,0.9962,0.9899,11408
+b2_time_ids2018_early_to_late,Logistic Regression,benign,0.8413,0.9999,0.9138,39992
+b2_time_ids2018_early_to_late,Logistic Regression,ddos,0.9996,0.4974,0.6643,15011
+b2_time_ids2018_early_to_late,Random Forest,benign,0.7271,1.0,0.842,39992
+b2_time_ids2018_early_to_late,Random Forest,ddos,0.0,0.0,0.0,15011
+b2_time_ids2018_early_to_late,XGBoost,benign,0.7113,0.4655,0.5627,39992
+b2_time_ids2018_early_to_late,XGBoost,ddos,0.2586,0.4967,0.3401,15011
+b2_time_ids2018_early_to_late,MLP,benign,0.7274,1.0,0.8422,39992
+b2_time_ids2018_early_to_late,MLP,ddos,1.0,0.0013,0.0027,15011
+c_cross_ddos2019_to_ids2018,Logistic Regression,benign,0.6673,0.5925,0.6276,75986
+c_cross_ddos2019_to_ids2018,Logistic Regression,ddos,0.1963,0.252,0.2207,30011
+c_cross_ddos2019_to_ids2018,Random Forest,benign,0.7475,0.9426,0.8338,75986
+c_cross_ddos2019_to_ids2018,Random Forest,ddos,0.5714,0.1937,0.2894,30011
+c_cross_ddos2019_to_ids2018,XGBoost,benign,0.7009,0.9256,0.7978,75986
+c_cross_ddos2019_to_ids2018,XGBoost,ddos,0.0,0.0,0.0,30011
+c_cross_ddos2019_to_ids2018,MLP,benign,0.7046,0.9421,0.8062,75986
+c_cross_ddos2019_to_ids2018,MLP,ddos,0.0,0.0,0.0,30011

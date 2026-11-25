@@ -1,0 +1,16 @@
+feature,mean_abs_shap
+Bwd Packets/s,2.1814
+Min Packet Length,1.65036
+URG Flag Count,1.21662
+ACK Flag Count,0.99633
+Init_Win_bytes_forward,0.77616
+min_seg_size_forward,0.6123
+Packet Length Std,0.59606
+Fwd Packet Length Min,0.52095
+Average Packet Size,0.41015
+Flow Bytes/s,0.38707
+Init_Win_bytes_backward,0.37375
+Fwd IAT Max,0.3165
+Fwd Packets/s,0.27903
+Fwd Packet Length Max,0.27591
+Active Min,0.25862

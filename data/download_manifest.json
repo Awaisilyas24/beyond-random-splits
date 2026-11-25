@@ -1,0 +1,100 @@
+[
+  {
+    "dataset": "ids2018",
+    "tag": "2018-02-14_bruteforce",
+    "url": "https://cse-cic-ids2018.s3.amazonaws.com/Processed%20Traffic%20Data%20for%20ML%20Algorithms/Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv",
+    "mode": "present",
+    "local_bytes": 358223333
+  },
+  {
+    "dataset": "ids2018",
+    "tag": "2018-02-20_ddos_loic_http",
+    "url": "https://cse-cic-ids2018.s3.amazonaws.com/Processed%20Traffic%20Data%20for%20ML%20Algorithms/Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv",
+    "mode": "present",
+    "local_bytes": 83882188
+  },
+  {
+    "dataset": "ids2018",
+    "tag": "2018-02-21_ddos_loic_udp_hoic",
+    "url": "https://cse-cic-ids2018.s3.amazonaws.com/Processed%20Traffic%20Data%20for%20ML%20Algorithms/Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv",
+    "mode": "present",
+    "local_bytes": 328893673
+  },
+  {
+    "dataset": "ids2018",
+    "tag": "2018-03-02_botnet",
+    "url": "https://cse-cic-ids2018.s3.amazonaws.com/Processed%20Traffic%20Data%20for%20ML%20Algorithms/Friday-02-03-2018_TrafficForML_CICFlowMeter.csv",
+    "mode": "present",
+    "local_bytes": 352368373
+  },
+  {
+    "dataset": "ddos2019",
+    "tag": "0112_UDPLag",
+    "url": "https://huggingface.co/datasets/baalajimaestro/CICDDoS2019/resolve/main/01-12/UDPLag.csv",
+    "mode": "present",
+    "local_bytes": 157968770
+  },
+  {
+    "dataset": "ddos2019",
+    "tag": "0112_Syn",
+    "url": "https://huggingface.co/datasets/baalajimaestro/CICDDoS2019/resolve/main/01-12/Syn.csv",
+    "mode": "sliced 10x8MB",
+    "local_bytes": 83882536
+  },
+  {
+    "dataset": "ddos2019",
+    "tag": "0112_DrDoS_NTP",
+    "url": "https://huggingface.co/datasets/baalajimaestro/CICDDoS2019/resolve/main/01-12/DrDoS_NTP.csv",
+    "mode": "sliced 10x8MB",
+    "local_bytes": 83880900
+  },
+  {
+    "dataset": "ddos2019",
+    "tag": "0112_DrDoS_UDP",
+    "url": "https://huggingface.co/datasets/baalajimaestro/CICDDoS2019/resolve/main/01-12/DrDoS_UDP.csv",
+    "mode": "sliced 10x8MB",
+    "local_bytes": 83881314
+  },
+  {
+    "dataset": "ddos2019",
+    "tag": "0112_DrDoS_DNS",
+    "url": "https://huggingface.co/datasets/baalajimaestro/CICDDoS2019/resolve/main/01-12/DrDoS_DNS.csv",
+    "mode": "sliced 10x8MB",
+    "local_bytes": 83883408
+  },
+  {
+    "dataset": "ddos2019",
+    "tag": "0311_Portmap",
+    "url": "https://huggingface.co/datasets/baalajimaestro/CICDDoS2019/resolve/main/03-11/Portmap.csv",
+    "mode": "present",
+    "local_bytes": 78611080
+  },
+  {
+    "dataset": "ddos2019",
+    "tag": "0311_UDPLag",
+    "url": "https://huggingface.co/datasets/baalajimaestro/CICDDoS2019/resolve/main/03-11/UDPLag.csv",
+    "mode": "whole",
+    "local_bytes": 319793413
+  },
+  {
+    "dataset": "ddos2019",
+    "tag": "0311_Syn",
+    "url": "https://huggingface.co/datasets/baalajimaestro/CICDDoS2019/resolve/main/03-11/Syn.csv",
+    "mode": "sliced 10x8MB",
+    "local_bytes": 83881611
+  },
+  {
+    "dataset": "ddos2019",
+    "tag": "0311_UDP",
+    "url": "https://huggingface.co/datasets/baalajimaestro/CICDDoS2019/resolve/main/03-11/UDP.csv",
+    "mode": "sliced 10x8MB",
+    "local_bytes": 83882086
+  },
+  {
+    "dataset": "ddos2019",
+    "tag": "0311_LDAP",
+    "url": "https://huggingface.co/datasets/baalajimaestro/CICDDoS2019/resolve/main/03-11/LDAP.csv",
+    "mode": "sliced 10x8MB",
+    "local_bytes": 83882512
+  }
+]

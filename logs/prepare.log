@@ -1,0 +1,27 @@
+[inspect] 0112_UDPLag: 88 cols, format_ok=True
+    labels={'UDP-lag': 366461, 'BENIGN': 3705, 'WebDDoS': 439}
+[inspect] 0112_Syn: 88 cols, format_ok=True
+    labels={'Syn': 205967, 'BENIGN': 35}
+[inspect] 0112_DrDoS_NTP: 88 cols, format_ok=True
+    labels={'DrDoS_NTP': 146101, 'BENIGN': 12356}
+[inspect] 0112_DrDoS_UDP: 88 cols, format_ok=True
+    labels={'DrDoS_UDP': 174777, 'BENIGN': 24}
+[inspect] 0112_DrDoS_DNS: 88 cols, format_ok=True
+    labels={'DrDoS_DNS': 194472, 'BENIGN': 1367}
+[inspect] 0311_Portmap: 88 cols, format_ok=True
+    labels={'Portmap': 186960, 'BENIGN': 4734}
+[inspect] 0311_UDPLag: 88 cols, format_ok=True
+    labels={'UDP': 112475, 'Syn': 606749, 'BENIGN': 4068, 'UDPLag': 1873}
+[inspect] 0311_Syn: 88 cols, format_ok=True
+    labels={'Syn': 191074, 'BENIGN': 42}
+[inspect] 0311_UDP: 88 cols, format_ok=True
+    labels={'UDP': 159252, 'MSSQL': 20032, 'BENIGN': 207}
+[inspect] 0311_LDAP: 88 cols, format_ok=True
+    labels={'LDAP': 182642, 'NetBIOS': 20359, 'BENIGN': 418}
+[inspect] 2018-02-14_bruteforce: 80 cols, format_ok=False
+[inspect] 2018-02-20_ddos_loic_http: 84 cols, format_ok=False
+[inspect] 2018-02-21_ddos_loic_udp_hoic: 80 cols, format_ok=False
+[inspect] 2018-03-02_botnet: 80 cols, format_ok=False
+[pool] ddos2019_day1: {'rows_after_cleaning': 22462, 'duplicates_removed': 35025, 'benign': 16344, 'ddos': 6118, 'n_features': 80, 'subtypes': {'Syn': 5905, 'WebDDoS': 213}}
+[pool] ddos2019_day2: {'rows_after_cleaning': 9406, 'duplicates_removed': 40063, 'benign': 8680, 'ddos': 726, 'n_features': 80, 'subtypes': {'Portmap': 726}}
+PREPARE DONE

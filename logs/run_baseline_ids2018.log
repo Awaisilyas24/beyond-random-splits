@@ -1,0 +1,27 @@
+pool18: 105997 rows (3 cross-pool duplicates removed); prevalence=0.2831; features=77
+  [42] a2_random_ids2018_pooled           Logistic Regression  acc=0.9979 macroF1=0.9974 ddosF1=0.9963 roc=0.9998 fit=3s
+  [42] a2_random_ids2018_pooled           Random Forest        acc=0.9999 macroF1=0.9998 ddosF1=0.9998 roc=1.0000 fit=11s
+  [42] a2_random_ids2018_pooled           XGBoost              acc=0.9999 macroF1=0.9999 ddosF1=0.9999 roc=1.0000 fit=6s
+  [42] a2_random_ids2018_pooled           MLP                  acc=0.9998 macroF1=0.9998 ddosF1=0.9997 roc=1.0000 fit=32s
+SEED 42 DONE
+  [17] a2_random_ids2018_pooled           Logistic Regression  acc=0.9974 macroF1=0.9968 ddosF1=0.9954 roc=0.9996 fit=3s
+  [17] a2_random_ids2018_pooled           Random Forest        acc=0.9998 macroF1=0.9998 ddosF1=0.9997 roc=1.0000 fit=11s
+  [17] a2_random_ids2018_pooled           XGBoost              acc=1.0000 macroF1=1.0000 ddosF1=1.0000 roc=1.0000 fit=7s
+  [17] a2_random_ids2018_pooled           MLP                  acc=0.9996 macroF1=0.9995 ddosF1=0.9993 roc=1.0000 fit=21s
+SEED 17 DONE
+  [101] a2_random_ids2018_pooled           Logistic Regression  acc=0.9979 macroF1=0.9974 ddosF1=0.9962 roc=0.9998 fit=4s
+  [101] a2_random_ids2018_pooled           Random Forest        acc=0.9998 macroF1=0.9998 ddosF1=0.9997 roc=1.0000 fit=11s
+  [101] a2_random_ids2018_pooled           XGBoost              acc=1.0000 macroF1=1.0000 ddosF1=1.0000 roc=1.0000 fit=8s
+  [101] a2_random_ids2018_pooled           MLP                  acc=0.9997 macroF1=0.9997 ddosF1=0.9996 roc=1.0000 fit=33s
+SEED 101 DONE
+  [555] a2_random_ids2018_pooled           Logistic Regression  acc=0.9980 macroF1=0.9975 ddosF1=0.9965 roc=0.9997 fit=4s
+  [555] a2_random_ids2018_pooled           Random Forest        acc=0.9998 macroF1=0.9997 ddosF1=0.9996 roc=1.0000 fit=11s
+  [555] a2_random_ids2018_pooled           XGBoost              acc=1.0000 macroF1=1.0000 ddosF1=1.0000 roc=1.0000 fit=6s
+  [555] a2_random_ids2018_pooled           MLP                  acc=0.9998 macroF1=0.9998 ddosF1=0.9997 roc=1.0000 fit=55s
+SEED 555 DONE
+  [2024] a2_random_ids2018_pooled           Logistic Regression  acc=0.9976 macroF1=0.9971 ddosF1=0.9958 roc=0.9997 fit=4s
+  [2024] a2_random_ids2018_pooled           Random Forest        acc=0.9998 macroF1=0.9998 ddosF1=0.9997 roc=1.0000 fit=11s
+  [2024] a2_random_ids2018_pooled           XGBoost              acc=1.0000 macroF1=1.0000 ddosF1=1.0000 roc=1.0000 fit=6s
+  [2024] a2_random_ids2018_pooled           MLP                  acc=0.9997 macroF1=0.9997 ddosF1=0.9995 roc=1.0000 fit=31s
+SEED 2024 DONE
+BASELINE RUN DONE

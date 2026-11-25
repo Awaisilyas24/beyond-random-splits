@@ -1,0 +1,28 @@
+features: 2019=77 2018=77 common=77
+
+=== Regime a_random_ddos2019: train=38691 test=16583 features=77 ===
+  Logistic Regression  acc=0.9878 macroF1=0.9877 ddosF1=0.9888 lat=0.93 ms/1k fit=6s
+  Random Forest        acc=0.9987 macroF1=0.9987 ddosF1=0.9988 lat=11.74 ms/1k fit=9s
+  XGBoost              acc=0.9993 macroF1=0.9993 ddosF1=0.9994 lat=8.15 ms/1k fit=7s
+  MLP                  acc=0.9943 macroF1=0.9942 ddosF1=0.9948 lat=7.87 ms/1k fit=42s
+
+=== Regime b1_time_ddos2019_day1_to_day2: train=35213 test=20061 features=77 ===
+  Logistic Regression  acc=0.9862 macroF1=0.9860 ddosF1=0.9880 lat=1.01 ms/1k fit=3s
+  Random Forest        acc=0.8730 macroF1=0.8728 ddosF1=0.8785 lat=12.14 ms/1k fit=7s
+  XGBoost              acc=0.9654 macroF1=0.9647 ddosF1=0.9698 lat=7.93 ms/1k fit=5s
+  MLP                  acc=0.9885 macroF1=0.9882 ddosF1=0.9899 lat=8.11 ms/1k fit=16s
+
+=== Regime b2_time_ids2018_early_to_late: train=50997 test=55003 features=77 ===
+  Logistic Regression  acc=0.8628 macroF1=0.7890 ddosF1=0.6643 lat=0.81 ms/1k fit=1s
+  Random Forest        acc=0.7271 macroF1=0.4210 ddosF1=0.0000 lat=7.24 ms/1k fit=4s
+  XGBoost              acc=0.4740 macroF1=0.4514 ddosF1=0.3401 lat=1.23 ms/1k fit=4s
+  MLP                  acc=0.7275 macroF1=0.4224 ddosF1=0.0027 lat=1.42 ms/1k fit=13s
+
+=== Regime c_cross_ddos2019_to_ids2018: train=55274 test=105997 features=77 ===
+  Logistic Regression  acc=0.4961 macroF1=0.4242 ddosF1=0.2207 lat=0.93 ms/1k fit=6s
+  Random Forest        acc=0.7306 macroF1=0.5616 ddosF1=0.2894 lat=12.50 ms/1k fit=12s
+  XGBoost              acc=0.6636 macroF1=0.3989 ddosF1=0.0000 lat=7.42 ms/1k fit=9s
+  MLP                  acc=0.6754 macroF1=0.4031 ddosF1=0.0000 lat=1.61 ms/1k fit=34s
+
+Best regime-(a) model: XGBoost; explainability: shap.TreeExplainer
+EXPERIMENTS DONE

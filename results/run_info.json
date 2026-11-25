@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "regimes": {
+    "b1_test_overlap_removed": 504,
+    "b2_test_overlap_removed": 0,
+    "c_test_overlap_removed": 0
+  },
+  "features": {
+    "ddos2019": 77,
+    "ids2018": 77,
+    "common_intersection": 77
+  },
+  "pool_dedup_removed": {
+    "ddos2019_pooled": 504,
+    "ids2018_pooled": 3
+  },
+  "best_model_regime_a": "XGBoost",
+  "explainability_method": "shap.TreeExplainer"
+}

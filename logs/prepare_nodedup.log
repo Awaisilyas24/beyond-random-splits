@@ -1,0 +1,38 @@
+[inspect] 0112_UDPLag: 88 cols, format_ok=True
+    labels={'UDP-lag': 366461, 'BENIGN': 3705, 'WebDDoS': 439} unexpected=[]
+[inspect] 0112_Syn: 88 cols, format_ok=True
+    labels={'Syn': 205967, 'BENIGN': 35} unexpected=[]
+[inspect] 0112_DrDoS_NTP: 88 cols, format_ok=True
+    labels={'DrDoS_NTP': 146101, 'BENIGN': 12356} unexpected=[]
+[inspect] 0112_DrDoS_UDP: 88 cols, format_ok=True
+    labels={'DrDoS_UDP': 174777, 'BENIGN': 24} unexpected=[]
+[inspect] 0112_DrDoS_DNS: 88 cols, format_ok=True
+    labels={'DrDoS_DNS': 194472, 'BENIGN': 1367} unexpected=[]
+[inspect] 0311_Portmap: 88 cols, format_ok=True
+    labels={'Portmap': 186960, 'BENIGN': 4734} unexpected=[]
+[inspect] 0311_UDPLag: 88 cols, format_ok=True
+    labels={'UDP': 112475, 'Syn': 606749, 'BENIGN': 4068, 'UDPLag': 1873} unexpected=[]
+[inspect] 0311_Syn: 88 cols, format_ok=True
+    labels={'Syn': 191074, 'BENIGN': 42} unexpected=[]
+[inspect] 0311_UDP: 88 cols, format_ok=True
+    labels={'UDP': 159252, 'MSSQL': 20032, 'BENIGN': 207} unexpected=[]
+[inspect] 0311_LDAP: 88 cols, format_ok=True
+    labels={'LDAP': 182642, 'NetBIOS': 20359, 'BENIGN': 418} unexpected=[]
+[inspect] 2018-02-14_bruteforce: 80 cols, format_ok=True
+    labels={'FTP-BruteForce': 193360, 'SSH-Bruteforce': 187589, 'Benign': 667626} unexpected=['SSH-Bruteforce']
+[inspect] 2018-02-20_ddos_loic_http: 84 cols, format_ok=True
+    labels={'Benign': 146149, 'DDoS attacks-LOIC-HTTP': 17562} unexpected=[]
+[inspect] 2018-02-21_ddos_loic_udp_hoic: 80 cols, format_ok=True
+    labels={'DDOS attack-HOIC': 686012, 'Benign': 360833, 'DDOS attack-LOIC-UDP': 1730} unexpected=[]
+[inspect] 2018-03-02_botnet: 80 cols, format_ok=True
+    labels={'Bot': 286191, 'Benign': 762384} unexpected=[]
+[features] canonical set: 77
+[nodedup] ddos2019_day1: keeping 22274 duplicate rows
+[pool] ddos2019_day1: {'rows_after_cleaning': 57487, 'duplicates_removed': 0, 'duplicates_present': 22274, 'benign': 17487, 'ddos': 40000, 'n_features': 77, 'subtypes': {'DrDoS_NTP': 8153, 'DrDoS_UDP': 7949, 'UDP-lag': 7922, 'Syn': 7880, 'DrDoS_DNS': 7867, 'WebDDoS': 229}}
+[nodedup] ddos2019_day2: keeping 28904 duplicate rows
+[pool] ddos2019_day2: {'rows_after_cleaning': 49469, 'duplicates_removed': 0, 'duplicates_present': 28904, 'benign': 9469, 'ddos': 40000, 'n_features': 77, 'subtypes': {'UDP': 6712, 'LDAP': 6542, 'MSSQL': 6530, 'NetBIOS': 6528, 'Syn': 6444, 'Portmap': 6419, 'UDPLag': 825}}
+[nodedup] ids2018_early: keeping 4003 duplicate rows
+[pool] ids2018_early: {'rows_after_cleaning': 55000, 'duplicates_removed': 0, 'duplicates_present': 4003, 'benign': 40000, 'ddos': 15000, 'n_features': 77, 'subtypes': {'DDoS attacks-LOIC-HTTP': 15000}}
+[nodedup] ids2018_late: keeping 1727 duplicate rows
+[pool] ids2018_late: {'rows_after_cleaning': 56730, 'duplicates_removed': 0, 'duplicates_present': 1727, 'benign': 40000, 'ddos': 16730, 'n_features': 77, 'subtypes': {'DDOS attack-HOIC': 15000, 'DDOS attack-LOIC-UDP': 1730}}
+PREPARE DONE

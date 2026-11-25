@@ -1,0 +1,28 @@
+features common=77; nodedup pools: day1=57487 day2=49469
+  [42] a_random_ddos2019                  Logistic Regression  acc=0.9878 macroF1=0.9877 ddosF1=0.9888 roc=0.9984 fit=5s
+  [42] a_random_ddos2019                  Random Forest        acc=0.9987 macroF1=0.9987 ddosF1=0.9988 roc=0.9999 fit=8s
+  [42] a_random_ddos2019                  XGBoost              acc=0.9993 macroF1=0.9993 ddosF1=0.9994 roc=1.0000 fit=6s
+  [42] a_random_ddos2019                  MLP                  acc=0.9943 macroF1=0.9942 ddosF1=0.9948 roc=0.9997 fit=38s
+  [42] a_random_ddos2019_NODEDUP          Logistic Regression  acc=0.9946 macroF1=0.9928 ddosF1=0.9964 roc=0.9992 fit=6s
+  [42] a_random_ddos2019_NODEDUP          Random Forest        acc=0.9994 macroF1=0.9993 ddosF1=0.9996 roc=1.0000 fit=11s
+  [42] a_random_ddos2019_NODEDUP          XGBoost              acc=0.9996 macroF1=0.9995 ddosF1=0.9997 roc=1.0000 fit=10s
+  [42] a_random_ddos2019_NODEDUP          MLP                  acc=0.9972 macroF1=0.9963 ddosF1=0.9981 roc=0.9999 fit=83s
+  [42] b1_time_ddos2019_day1_to_day2      Logistic Regression  acc=0.9862 macroF1=0.9860 ddosF1=0.9880 roc=0.9975 fit=3s
+  [42] b1_time_ddos2019_day1_to_day2      Random Forest        acc=0.8730 macroF1=0.8728 ddosF1=0.8785 roc=0.9858 fit=7s
+  [42] b1_time_ddos2019_day1_to_day2      XGBoost              acc=0.9654 macroF1=0.9647 ddosF1=0.9698 roc=0.9941 fit=6s
+  [42] b1_time_ddos2019_day1_to_day2      MLP                  acc=0.9885 macroF1=0.9882 ddosF1=0.9899 roc=0.9972 fit=16s
+  [42] b2_time_ids2018_early_to_late      Logistic Regression  acc=0.8628 macroF1=0.7890 ddosF1=0.6643 roc=0.8830 fit=1s
+  [42] b2_time_ids2018_early_to_late      Random Forest        acc=0.7271 macroF1=0.4210 ddosF1=0.0000 roc=0.5065 fit=4s
+  [42] b2_time_ids2018_early_to_late      XGBoost              acc=0.4740 macroF1=0.4514 ddosF1=0.3401 roc=0.5109 fit=3s
+  [42] b2_time_ids2018_early_to_late      MLP                  acc=0.7275 macroF1=0.4224 ddosF1=0.0027 roc=0.8826 fit=12s
+  [42] c_cross_ddos2019_to_ids2018        Logistic Regression  acc=0.4961 macroF1=0.4242 ddosF1=0.2207 roc=0.5476 fit=4s
+  [42] c_cross_ddos2019_to_ids2018        Random Forest        acc=0.7306 macroF1=0.5616 ddosF1=0.2894 roc=0.4418 fit=12s
+  [42] c_cross_ddos2019_to_ids2018        XGBoost              acc=0.6636 macroF1=0.3989 ddosF1=0.0000 roc=0.4651 fit=7s
+  [42] c_cross_ddos2019_to_ids2018        MLP                  acc=0.6754 macroF1=0.4031 ddosF1=0.0000 roc=0.7610 fit=36s
+  [42] c2_floodtrain_to_loicudp           Logistic Regression  acc=0.5969 macroF1=0.3738 ddosF1=0.0000 roc=0.0045 fit=1s
+  [42] c2_floodtrain_to_loicudp           Random Forest        acc=0.9555 macroF1=0.4886 ddosF1=0.0000 roc=0.8936 fit=9s
+  [42] c2_floodtrain_to_loicudp           XGBoost              acc=0.8968 macroF1=0.4728 ddosF1=0.0000 roc=0.9013 fit=8s
+  [42] c2_floodtrain_to_loicudp           MLP                  acc=0.9313 macroF1=0.4822 ddosF1=0.0000 roc=0.0456 fit=22s
+SEED 42 DONE
+AGGREGATE DONE
+V2 RUNS DONE

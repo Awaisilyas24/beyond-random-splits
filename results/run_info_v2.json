@@ -1,0 +1,21 @@
+{
+  "seeds_requested": [
+    42,
+    17,
+    101,
+    555,
+    2024
+  ],
+  "seeds_completed": [
+    42
+  ],
+  "b5_flood_train_subtypes": [
+    "DrDoS_UDP",
+    "Syn",
+    "UDP"
+  ],
+  "b5_test_subtype": [
+    "DDOS attack-LOIC-UDP"
+  ],
+  "note": "B1 NODEDUP pools from prepare_data_nodedup.py; all other pools = v1 prepared (deduped)."
+}

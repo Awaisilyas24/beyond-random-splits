@@ -1,0 +1,7 @@
+# data pools are rebuilt by code/download_data.py + prepare scripts (GBs)
+data/prepared/
+data/prepared_nodedup/
+data/*.csv
+__pycache__/
+venv/
+*.pyc
